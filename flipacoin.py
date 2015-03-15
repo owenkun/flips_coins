@@ -4,7 +4,7 @@ import time
 
 
 r = praw.Reddit(user_agent="Flip A Coin")
-r.login("flips_coins","a84398021b")
+r.login()
 print("Logged in")
 
 match_words = ["can't decide","cant decide","must decide","need to decide"]
